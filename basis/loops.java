@@ -37,8 +37,25 @@ public class loops {
         }
         
       }
-      // 
+      
+      
+      //else if ladder
+        System.out.println("Enter your both numbers you wan to check : ");
+      int num10 = prac.nextInt();
+      int num20 = prac.nextInt();
+      if (num10==num20){
+        System.out.println("both numbers are equal");  
+      } else if (num10>num20){
+            System.out.println(num10 + "is greater than" + num20);}
+        else{
+            System.out.println(num20 + "is greater than" + num10);
+        }
 
+        // switch case
+    
+      }
+      
+  
 
     }
-}
+
