@@ -1,6 +1,7 @@
 import java.util.Scanner;
 class hello{
 // this is the way to output the any text 
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         System.out.println("Hello, World!");
 
@@ -44,7 +45,7 @@ class hello{
             int sum = A1 + B1;
             System.out.println("The sum of a and b is : " + sum);
             //
-
+         sc.close();
             
         
 
