@@ -52,7 +52,43 @@ public class loops {
         }
 
         // switch case
-    
+// notes 
+// in the switch case we can cases and make the code clean it makes easier to execute the code and it is more efficient than if else ladder
+
+        
+        
+        
+        
+        System.out.println("Enter the button number you want to press: ");
+        int button = prac.nextInt();
+        switch(button){
+          case 1:
+            System.out.println("You have pressed button 1");
+            System.out.println("hello");
+            break;
+
+            case 2:
+              System.out.println("You have pressed button 2");
+              System.out.println("Guten tag ");
+              break;
+
+              case 3: 
+              System.out.println("you haved pressed button 3 ");
+              System.out.println("namaste");
+              break;
+
+        }
+        
+         
+        
+
+
+
+
+
+
+
+
       }
       
   
