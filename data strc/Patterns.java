@@ -77,7 +77,22 @@ for(int i=a;i>=1;i--){
 }
 
 // next question 
+// Floyd's triangle
+System.out.println("Floyd's triangle : ");
+int number =1;
+for(int i =1;i<=a;i++){
+    for (int j =1;j<=i;j++){
+        System.out.print(number+" ");
+        number++;
+    }
+    System.out.println();
+}
 
+//0-1 pattern
+System.out.println("0-1 pattern : ");
+
+
+ 
 
 
 
