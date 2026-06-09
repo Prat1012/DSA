@@ -92,6 +92,7 @@ for(int i =1;i<=a;i++){
 System.out.println("0-1 pattern : ");
 
 
+
  
 
 
